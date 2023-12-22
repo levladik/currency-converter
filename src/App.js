@@ -1,8 +1,13 @@
-import './index.scss'
+import React from 'react';
+import Block  from './Block';
+import './index.scss';
 
 function App() {
   return (
-    <div className="app">Hello</div>
+    <div className="App">
+      <Block />
+      <Block />
+    </div>
   );
 }
 
